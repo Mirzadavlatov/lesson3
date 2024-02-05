@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1240px;
+    width: 100%; 
+    margin: 0 auto;
+    padding: 0 20px;
+    transition: all 0.5s linear;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    font-style: normal;
+    font-family: "Mulish", sans-serif;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ---------- Aside Section ---------- */
+aside {
+    background: #363740;
+    width: 320px;
+    transition: all 0.5s linear;
+}
+
+.menu-closed aside {
+    width: 90px;
+}
+
+.menu-closed .container{
+    max-width: 1420px;
+    width: 100%;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin: 36px 0 53px;
+    cursor: pointer;
+}
+
+.menu-closed .logo{
+    margin-left: 28px;
+    gap: 26px;
+}
+
+.text{
+    color: #A4A6B3;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu-closed .text{
+    overflow: hidden;
+}
+
+.menu{
+    
+}
+/* ---------- /Aside Section ---------- */
+
+/* ---------- Main Section ---------- */
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 21px 0 53px;
+}
+
+.menu-btn{
+    width: 30px;
+    height: 25px;
+    background: #fff;
+    cursor: pointer;
+    border: none;
+
+}
+
+.MenuBtn{
+    width: 100%;
+    height: 4px;
+    background: #000;
+    margin: 5px 0;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.admin p{
+    color: #252733;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.header-bg-image{
+    border-radius: 50%;
+}
+/* ---------- /Main Section ---------- */
